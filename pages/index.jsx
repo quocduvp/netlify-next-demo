@@ -1,5 +1,11 @@
+import Layout from "../components/Layout";
+
 function Home() {
-    return <div>Welcome to Next.js!</div>
+    return (
+        <Layout title={"Home page"}>
+            <span >Big blue text</span>
+        </Layout>
+    )
 }
 
 export default Home
